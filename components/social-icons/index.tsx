@@ -1,5 +1,4 @@
-import { Github, Twitter, Youtube } from "./icons"
-
+import { Github, Twitter, Youtube } from './icons'
 
 const components = {
   // mail: Mail,

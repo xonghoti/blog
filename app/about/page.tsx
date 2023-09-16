@@ -8,7 +8,7 @@ export const metadata = genPageMetadata({ title: 'About' })
 
 export default function Page() {
   const basanta = allAuthors.find((p) => p.slug === 'default') as Authors
-  const anurag = allAuthors.find((p) => p.slug === 'anuragsaikia') as Authors;
+  const anurag = allAuthors.find((p) => p.slug === 'anuragsaikia') as Authors
 
   const mainContent = coreContent(basanta)
   const secondaryContent = coreContent(anurag)
