@@ -28,14 +28,21 @@ export default function Page() {
       </div>
 
       <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
-        Rikto Xonghoti (ৰিক্ত সংহতি) is a project that aims to provide bitcoin education in the Assamese (অসমীয়া) language.
-        We are translating articles, books etc to Assamese, creating our own content as well.
-
-        Here is how we are doing it:
+        Rikto Xonghoti (ৰিক্ত সংহতি) is a project that aims to provide bitcoin education in the
+        Assamese (অসমীয়া) language. We are translating articles, books etc to Assamese, creating
+        our own content as well. Here is how we are doing it:
         <ul>
-          <li> We hold a monthly Twitter/X Space on our twitter account <a href='https://twitter.com/xonghoti'>@xonghoti</a>, on the first Sunday of each month. </li>
+          <li>
+            {' '}
+            We hold a monthly Twitter/X Space on our twitter account{' '}
+            <a href="https://twitter.com/xonghoti">@xonghoti</a>, on the first Sunday of each month.{' '}
+          </li>
           <li> We publish our translated work on this website</li>
-          <li> We plan on having audible versions of all our work here as well, also accessible via the podcast app of your choice.</li>
+          <li>
+            {' '}
+            We plan on having audible versions of all our work here as well, also accessible via the
+            podcast app of your choice.
+          </li>
         </ul>
       </div>
 
