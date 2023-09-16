@@ -1,19 +1,18 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Liphapha',
+    description: `Basanta is working on a private payments application using cashu, nostr and more.
+    It will be available on Windows, macOS, Linux, Android, iOS, and the web,
+    and also as a browser extension for Chrome and Firefox.`,
+    imgSrc: '/static/images/liphapha.png',
+    href: 'https://liphapha.app',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Indian Pleb Space',
+    description: `Weekly Twitter/X space for discussions on Bitcoin. Monday: 7pm IST
+    Co-hosted by Anurag.`,
+    imgSrc: '/static/images/indianplebspace.jpg',
+    href: 'https://twitter.com/indianplebspace',
   },
 ]
 
