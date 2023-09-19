@@ -1,4 +1,4 @@
-import { Authors, allAuthors } from 'contentlayer/generated'
+import { allAuthors } from 'contentlayer/generated'
 import { MDXLayoutRenderer } from 'pliny/mdx-components'
 import AuthorLayout from '@/layouts/AuthorLayout'
 import { coreContent } from 'pliny/utils/contentlayer'
@@ -7,12 +7,6 @@ import { genPageMetadata } from 'app/seo'
 export const metadata = genPageMetadata({ title: 'About' })
 
 export default function Page() {
-  const basanta = allAuthors.find((p) => p.slug === 'default') as Authors
-  const anurag = allAuthors.find((p) => p.slug === 'anuragsaikia') as Authors
-
-  const mainContent = coreContent(basanta)
-  const secondaryContent = coreContent(anurag)
-
   return (
     <>
       <div className="space-y-2 pb-8 pt-6 md:space-y-5">
@@ -48,18 +42,28 @@ export default function Page() {
 
       <div className="space-y-2 pb-8 pt-6 md:space-y-5">
         <h1 className="text-1xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">
+          Support Us
+        </h1>
+      </div>
+
+      <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
+        <li>You can send sats to <span className='font-extrabold'>xonghoti@geyser.fund</span> to help us further our cause.</li>
+        <li>Alternatively you can display your support publicly at <a href='https://geyser.fund/project/xonghoti'>geyser.fund</a>.</li>
+      </div>
+
+      <div className="space-y-2 pb-8 pt-6 md:space-y-5">
+        <h1 className="text-1xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">
           Who are we
         </h1>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'space-between', gap: '20px' }}>
-        <AuthorLayout content={mainContent}>
-          <MDXLayoutRenderer code={basanta.body.code} />
+      {allAuthors.map((author) => (
+        <AuthorLayout content={coreContent(author)}>
+          <MDXLayoutRenderer code={author.body.code} />
         </AuthorLayout>
-        <AuthorLayout content={secondaryContent}>
-          <MDXLayoutRenderer code={anurag.body.code} />
-        </AuthorLayout>
-      </div>
+      )
+      )
+      }
     </>
   )
 }
