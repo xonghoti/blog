@@ -47,8 +47,14 @@ export default function Page() {
       </div>
 
       <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
-        <li>You can send sats to <span className='font-extrabold'>xonghoti@geyser.fund</span> to help us further our cause.</li>
-        <li>Alternatively you can display your support publicly at <a href='https://geyser.fund/project/xonghoti'>geyser.fund</a>.</li>
+        <li>
+          You can send sats to <span className="font-extrabold">xonghoti@geyser.fund</span> to help
+          us further our cause.
+        </li>
+        <li>
+          Alternatively you can display your support publicly at{' '}
+          <a href="https://geyser.fund/project/xonghoti">geyser.fund</a>.
+        </li>
       </div>
 
       <div className="space-y-2 pb-8 pt-6 md:space-y-5">
@@ -58,12 +64,10 @@ export default function Page() {
       </div>
 
       {allAuthors.map((author) => (
-        <AuthorLayout content={coreContent(author)}>
+        <AuthorLayout key={author.slug} content={coreContent(author)}>
           <MDXLayoutRenderer code={author.body.code} />
         </AuthorLayout>
-      )
-      )
-      }
+      ))}
     </>
   )
 }
