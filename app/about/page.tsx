@@ -63,11 +63,13 @@ export default function Page() {
         </h1>
       </div>
 
-      {allAuthors.map((author) => (
-        <AuthorLayout key={author.slug} content={coreContent(author)}>
-          <MDXLayoutRenderer code={author.body.code} />
-        </AuthorLayout>
-      ))}
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
+        {allAuthors.map((author) => (
+          <AuthorLayout key={author.slug} content={coreContent(author)}>
+            <MDXLayoutRenderer code={author.body.code} />
+          </AuthorLayout>
+        ))}
+      </div>
     </>
   )
 }
