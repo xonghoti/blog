@@ -11,6 +11,7 @@ This is the codebase for https://xonghoti.com. It was created using this [Vercel
 - We hold a monthly Twitter/X Space on our twitter account [@xonghoti](https://twitter.com/xonghoti), on the first Sunday of each month.
 - We publish our translated work on our blog [https://xonghoti.com](https://xonghoti.com).
 - We plan on having audible versions of all our work in the website, also accessible via the podcast app of your choice.
+- You can checkout our [todo list](/todo.md) for a complete list of things we are working on.
 
 ## Support
 
