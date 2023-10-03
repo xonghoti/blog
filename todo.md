@@ -1,10 +1,9 @@
 # Todo Items
 
-
+## 21 Lessons by Dergigi
 
 | Title | Translation | Audio |
 |---    |---          |---    |
-| **21 Lessons by Dergigi**                                 |
 | Chapter I : Philosophy                                |✅|-|
 | Lesson 1 : Immutability and change                    |✅|-|
 | Lesson 2 : The scarcity of scarcity                   |✅|-|
@@ -12,7 +11,7 @@
 | Lesson 4 : The problem of identity                    |✅|-|
 | Lesson 5 : An immaculate conception                   |✅|-|
 | Lesson 6 : The power of free speech                   |✅|-|
-| Lesson 7 : The limits of knowledge                    |-|-|
+| Lesson 7 : The limits of knowledge                    |✅|-|
 | Chapter II : Economics                                |-|-|
 | Lesson 8 : Financial ignorance                        |-|-|
 | Lesson 9 : Inflation                                  |-|-|
@@ -29,12 +28,20 @@
 | Lesson 19 : Privacy is not dead                       |-|-|
 | Lesson 20 : Cypherpunks write code                    |-|-|
 | Lesson 21 : Metaphors for Bitcoin's future            |-|-|
-| **21 Ways by Dergigi**                                    |
+
+## 21 Ways by Dergigi
+
+| Title | Translation | Audio |
+|---    |---          |---    |
 | Bitcoin Is An Idea                                    |-|-|
 | Bitcoin Is Time                                       |-|-|
 | Bitcoin Is Magic Internet Money                       |-|-|
 | Bitcoin Is Digital Scarcity                           |-|-|
-| **Articles/papers**                                       |
+
+
+## Articles/papers
+| Title | Translation | Audio |
+|---    |---          |---    |
 | The Bitcoin Whitepaper by Satoshi Nakamoto            |-|-|
 | Shelling Out: The Origins of Money by Nick Szabo      |-|-|
 | The Bullish Case for Bitcoin by Vijay Boyapati        |-|-|
@@ -42,7 +49,11 @@
 | Bitcoin Astronomy by Druv Bansal                      |-|-|
 | Why Bitcoin Matters for Freedom by Alex Gladstein     |-|-|
 | Cryptography is Not Enough by Dergigi                 |-|-|
-| **Bitcoin Development Philosophy**                        |
+
+
+## Bitcoin Development Philosophy
+| Title | Translation | Audio |
+|---    |---          |---    |
 | 1. Decentralization                                   |-|-|
 | 1.1. Miner decentralization                           |-|-|
 | 1.2. Full node decentralization                       |-|-|
@@ -106,5 +117,8 @@
 | A.6. Adversarial thinking                             |-|-|
 | A.7. Open source                                      |-|-|
 | A.8. Scaling                                          |-|-|
-| **Other translations**                                    |
+
+## Other translations
+| Title | Translation | Audio |
+|---    |---          |---    |
 | Bitcoin Glossary of Terms by Bitcoin Magazine         |-|-|
