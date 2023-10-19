@@ -8,11 +8,11 @@ const projectsData = [
     href: 'https://liphapha.app',
   },
   {
-    title: 'Indian Pleb Space',
-    description: `Weekly Twitter/X space for discussions on Bitcoin. Monday: 7pm IST
-    Co-hosted by Anurag.`,
-    imgSrc: '/static/images/indianplebspace.jpg',
-    href: 'https://twitter.com/indianplebspace',
+    title: 'Desi Bitcoin Show',
+    description: `Monetary education, sovereignty and prosperity through #Bitcoin.
+    Twitter spaces almost every day. Co-hosted by Anurag.`,
+    imgSrc: '/static/images/desibitcoinshow.jpeg',
+    href: 'https://twitter.com/desibitcoinshow',
   },
 ]
 
