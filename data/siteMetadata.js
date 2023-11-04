@@ -13,7 +13,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.jpeg',
   github: 'https://github.com/xonghoti',
   twitter: 'https://twitter.com/xonghoti',
-  youtube: 'https://youtube.com/xonghoti',
+  youtube: 'https://youtube.com/@xonghoti',
   nostr: 'https://snort.social/p/npub1dy2t2h6xphjqqyqm8thp3m2c0fka8ekzgxjjdm475lzm8xtpzxlqdzcv99',
   locale: 'en-US',
   analytics: {
